@@ -151,7 +151,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ToyCommand.cpp" />
+    <ClCompile Include="InputParser.cpp" />
     <ClCompile Include="IressExam.cpp" />
+    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="ToyTable.cpp" />
+    <ClCompile Include="ToyRobot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ToyCommand.h" />
+    <ClInclude Include="Defs.h" />
+    <ClInclude Include="IInputParser.h" />
+    <ClInclude Include="InputParser.h" />
+    <ClInclude Include="IToyTable.h" />
+    <ClInclude Include="IToyRobot.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="ToyTable.h" />
+    <ClInclude Include="ToyRobot.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
